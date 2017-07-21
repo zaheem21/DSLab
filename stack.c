@@ -58,3 +58,7 @@ int main(){
 			printf("invalid choice");
 			break;
 		}
+while(1);
+return 0;
+}
+
