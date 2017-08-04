@@ -52,7 +52,7 @@ switch(left)
 	int top=-1,i=0;
 	while(exp[i]!='\0')
 	{ 	
-		if(exp[i]=='(','{','[')
+		if(exp[i]=='('|| i='{'|| i='[')
 		{
 			c.push(&s);
           }
@@ -71,7 +71,7 @@ switch(left)
 		  }
 			  if(isMatchingpair(c,exp[i]))
 			  {
-				  continue 
+				  continue ;
 			  }
 			  else
 			  {
